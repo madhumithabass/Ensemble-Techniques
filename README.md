@@ -204,23 +204,6 @@ Final Prediction
 * Greater risk of overfitting if not implemented correctly
 * Requires careful validation
 
----
-
-# 🔍 Bagging vs Boosting vs Stacking
-
-| Feature           | Bagging               | Boosting                       | Stacking                                            |
-| ----------------- | --------------------- | ------------------------------ | --------------------------------------------------- |
-| Full Form         | Bootstrap Aggregating | Boosting                       | Stacked Generalization                              |
-| Training          | Parallel              | Sequential                     | Usually parallel base models                        |
-| Main Idea         | Reduce variance       | Reduce bias                    | Combine different models                            |
-| Focus             | Different samples     | Previous errors                | Predictions of base models                          |
-| Sampling          | Bootstrap sampling    | Usually weighted/error-focused | Usually same training data with validation strategy |
-| Final Combination | Voting/Average        | Weighted combination           | Meta-model                                          |
-| Overfitting       | Lower risk            | Higher risk if overtrained     | Higher risk if poorly implemented                   |
-| Example           | Random Forest         | AdaBoost, XGBoost              | Stacking Classifier                                 |
-
----
-
 ### Bagging → "Many models independently"
 
 > Train many models on different bootstrap samples and combine their predictions.
