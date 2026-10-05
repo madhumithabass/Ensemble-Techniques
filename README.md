@@ -1,6 +1,6 @@
 # Ensemble Techniques
 
-## 📌 What is Ensemble Learning?
+##  What is Ensemble Learning?
 
 **Ensemble Learning** is a machine learning technique where multiple models are combined to create a stronger and more accurate model.
 
@@ -16,7 +16,7 @@ Instead of depending on a single model, ensemble methods use several **base mode
 
 # 1. Bagging
 
-## 📌 What is Bagging?
+##  What is Bagging?
 
 **Bagging** stands for **Bootstrap Aggregating**.
 
@@ -75,7 +75,7 @@ It creates multiple training datasets from the original dataset using **random s
 
 # 2. Boosting
 
-## 📌 What is Boosting?
+##  What is Boosting?
 
 **Boosting** is an ensemble technique where models are trained **sequentially**.
 
@@ -135,7 +135,7 @@ Final Combined Prediction
 
 # 3. Stacking
 
-## 📌 What is Stacking?
+##  What is Stacking?
 
 **Stacking**, or **Stacked Generalization**, combines predictions from multiple different machine learning models.
 
@@ -221,8 +221,6 @@ Final Prediction
 
 ---
 
-# 🧠 Simple Way to Remember
-
 ### Bagging → "Many models independently"
 
 > Train many models on different bootstrap samples and combine their predictions.
@@ -243,51 +241,6 @@ Final Prediction
 
 ---
 
-# 📌 Real-Life Analogy
-
-Imagine you want to decide whether a movie is good.
-
-### Bagging
-
-You ask **10 people independently** and take the majority opinion.
-
-```text
-Person 1 → Good
-Person 2 → Good
-Person 3 → Bad
-Person 4 → Good
-...
-       ↓
-Majority → Good
-```
-
-### Boosting
-
-You ask one person first.
-
-If they make a mistake, the next person pays more attention to that mistake. The process continues until you get a strong overall decision.
-
-### Stacking
-
-You ask different experts:
-
-```text
-Movie Critic
-Audience
-Film Analyst
-Genre Expert
-      ↓
-   Predictions
-      ↓
-  Lead Reviewer
-      ↓
-Final Decision
-```
-
----
-
-# 🎯 Key Points
-
 * **Ensemble Learning** combines multiple models to improve machine learning performance.
 * **Bagging** trains models independently using bootstrap samples.
 * **Boosting** trains models sequentially to correct previous errors.
@@ -296,7 +249,6 @@ Final Decision
 * **Boosting → Reduces bias**
 * **Stacking → Learns how to combine models**
 
-### Easy Memory Trick
 
 ```text
 BAGGING  → Different Samples → Parallel
